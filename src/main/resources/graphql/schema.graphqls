@@ -6,4 +6,19 @@ type Example {
    id : String
    description : String
    exampleMessage : String
+   schemaExample : SchemaExample
+   batchExample : SchemaExample
+   layeredExample : LayeredExample
+}
+
+type SchemaExample {
+   id : String
+   description : String
+}
+
+
+type LayeredExample {
+   id : String
+   description : String
+   schemaExample : SchemaExample
 }
