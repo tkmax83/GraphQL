@@ -1,9 +1,0 @@
-type Query {
-    example(id:ID!): Example
-}
-
-type Example {
-   id : String
-   description : String
-   exampleMessage : String
-}
